@@ -1,6 +1,6 @@
 {
   "name": "codemirror-frontmatters",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/codemirror.js",
   "style": "lib/codemirror.css",
   "author": {
