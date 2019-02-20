@@ -1,8 +1,10 @@
 # CodeMirror
 
-[![Build Status](https://travis-ci.org/codemirror/CodeMirror.svg)](https://travis-ci.org/codemirror/CodeMirror)
-[![NPM version](https://img.shields.io/npm/v/codemirror.svg)](https://www.npmjs.org/package/codemirror)
-[![Join the chat at https://gitter.im/codemirror/CodeMirror](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/codemirror/CodeMirror)  
+## Frontmatters fork
+
+This is a fork of CodeMirror with yaml ( original CodeMirror ), toml and json ( this fork ) front matters.
+
+* CodeMirror main repository won't accept new mode anymore. *
 
 CodeMirror is a versatile text editor implemented in JavaScript for
 the browser. It is specialized for editing code, and comes with over

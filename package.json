@@ -1,14 +1,14 @@
 {
-  "name": "codemirror",
-  "version": "5.43.1",
+  "name": "codemirror-frontmatters",
+  "version": "1.0.0",
   "main": "lib/codemirror.js",
   "style": "lib/codemirror.css",
   "author": {
-    "name": "Marijn Haverbeke",
-    "email": "marijnh@gmail.com",
-    "url": "http://marijnhaverbeke.nl"
+    "name": "Reactma",
+    "email": "github@reactma.com",
+    "url": "https://reactma.com"
   },
-  "description": "Full-featured in-browser code editor",
+  "description": "A fork of CodeMirror with extra front matters, since CodeMirror main repository won't accept new mode any more",
   "license": "MIT",
   "directories": {
     "lib": "./lib"
@@ -34,10 +34,10 @@
     "CodeMirror",
     "Editor"
   ],
-  "homepage": "https://codemirror.net",
+  "homepage": "https://reactma.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/codemirror/CodeMirror.git"
+    "url": "https://github.com/reactma/codemirror-frontmatters.git"
   },
   "jspm": {
     "directories": {},
