@@ -4,7 +4,7 @@
 
 This is a fork of CodeMirror with yaml ( original CodeMirror ), toml and json ( this fork ) front matters.
 
-* CodeMirror main repository won't accept new mode anymore. *
+**CodeMirror main repository won't accept new mode anymore.**
 
 CodeMirror is a versatile text editor implemented in JavaScript for
 the browser. It is specialized for editing code, and comes with over
