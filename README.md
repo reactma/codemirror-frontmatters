@@ -6,6 +6,41 @@ This is a fork of CodeMirror with yaml ( original CodeMirror ), toml and json ( 
 
 **CodeMirror main repository won't accept new mode anymore.**
 
+## Usage
+
+### Recommended - just use the frontmatter mode source code
+
+For yaml-frontmatter mode, follow CodeMirror main site instruction
+
+For toml-frontmatter & json-frontmatter mode, just download the source code and require them locally.
+
+[tom-frontmatter source](https://github.com/reactma/codemirror-frontmatters/tree/master/mode/toml-frontmatter)
+[json-frontmatter source](https://github.com/reactma/codemirror-frontmatters/tree/master/mode/json-frontmatter)
+
+Code sample
+```
+import 'codemirror/mode/markdown/markdown'
+import 'codemirror/mode/gfm/gfm'
+import 'codemirror/mode/yaml/yaml'
+import 'codemirror/mode/toml/toml'
+import 'codemirror/mode/javascript/javascript'
+
+
+import '/path/to/toml-frontmatter'
+import '/path/to/json-frontmatter'
+
+const codemirrorOption = {
+    mode: 'yaml-frontmatter' // toml-frontmatter or json-frontmatter
+}
+
+```
+
+### Not recommended 
+
+Use this fork as CodeMirror repo at your risk. It will NOT be SYNCED with CodeMirror in time.
+
+--
+
 CodeMirror is a versatile text editor implemented in JavaScript for
 the browser. It is specialized for editing code, and comes with over
 100 language modes and various addons that implement more advanced
